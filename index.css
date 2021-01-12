@@ -1,0 +1,69 @@
+.container {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+}
+
+.navbar {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #FFFFFF;
+    width: 1920px;
+    height: 96px;
+}
+
+.logo {
+    position: absolute;
+    left: 0%;
+    right: 75.62%;
+    top: 0%;
+    bottom: 0%;
+    background: #F7F8FC;
+}
+
+.logoText {
+    position: absolute;
+    width: 125px;
+    height: 48px;
+    left: 80px;
+    top: 24px;
+    font-family: HelveticaNeueCyr;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #4E254F;
+}
+
+.logoLang {
+    height: 32px;
+    width: 131px;
+    left: 248px;
+    top: 32px;
+    border-radius: 0px;
+}
+
+.logoLangUa {
+    /* UA */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2px 8px;
+    position: static;
+    width: 36px;
+    height: 20px;
+    left: 4px;
+    top: 6px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 8px;
+}
